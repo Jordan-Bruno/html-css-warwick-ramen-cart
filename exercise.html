@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warwick Ramen Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zennnn+Maru+Gothic&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f4f0;
+            color: #2e2e2e;
+        }
+
+        header {
+            background-color: #e63946;
+            padding: 1rem 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Zen Maru Gothic', serif;
+            font-size: 2rem;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 60vh;
+            object-fit: cover;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .intro p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .menu-heading {
+            text-align: center;
+            font-family: 'Zen Maru Gothic', serif;
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card h3 {
+            font-family: 'Zen Maru Gothic', serif;
+            margin: 1rem 0 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .card p {
+            padding: 0 1rem;
+            font-size: 0.95rem;
+        }
+
+        .card .price {
+            padding: 0 1rem 1rem;
+            color: #000000;
+        }
+
+        footer {
+            background-color: #999;
+            color: #ccc;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Warwick Ramen Cart</h1>
+    </header>
+
+    <img class="hero-image" src="images/hero-missing.png" alt="Hero Ramen Cart">
+
+    <section class="intro">
+        <p>Welcome to the best ramen stand on the University of Warwick campus!</p>
+    </section>
+
+    <h2 class="menu-heading">Menu</h2>
+
+    <section class="menu">
+        <div class="card">
+            <img src="images/Tonkotsu Ramen.png" alt="Tonkotsu Ramen">
+            <h3>Tonkotsu Ramen</h3>
+            <p>Rich, creamy pork bone broth with garlic oil and chashu pork.</p>
+            <div class="price">£7.00</div>
+        </div>
+        <div class="card">
+            <img src="images/Shoyu Ramen.png" alt="Shoyu Ramen">
+            <h3>Shoyu Ramen</h3>
+            <p>Classic soy-based broth with sliced pork, bamboo shoots and soft boiled egg.</p>
+            <div class="price">£6.50</div>
+        </div>
+        <div class="card">
+            <img src="images/Miso Ramen.png" alt="Miso Ramen">
+            <h3>Miso Ramen</h3>
+            <p>Hearty miso-flavoured broth with sweetcorn, bean sprouts and butter.</p>
+            <div class="price">£6.50</div>
+        </div>
+        <div class="card">
+            <img src="images/Vegan Ramen.png" alt="Vegan Ramen">
+            <h3>Vegan Ramen</h3>
+            <p>Umami-packed broth with tofu, mushrooms and fresh vegetables.</p>
+            <div class="price">£6.00</div>
+        </div>
+        <div class="card">
+            <img src="images/Matcha Latte.png" alt="Matcha Latte">
+            <h3>Matcha Latte (Can)</h3>
+            <p>Chilled canned matcha latte – smooth, sweet, and earthy green tea flavour.</p>
+            <div class="price">£2.00</div>
+        </div>
+        <div class="card">
+            <img src="images/Carbonated Orange Juice.png" alt="Carbonated Orange Juice">
+            <h3>Carbonated Orange Juice</h3>
+            <p>Chilled can of carbonated orange juice – fruity, fizzy, and refreshing.</p>
+            <div class="price">£1.50</div>
+        </div>
+        <div class="card">
+            <img src="images/Cola.png" alt="Cola">
+            <h3>Cola</h3>
+            <p>Chilled can of classic cola – the ultimate fizzy drink staple.</p>
+            <div class="price">£1.50</div>
+        </div>
+        <div class="card">
+            <img src="images/Mochi Ice Cream.png" alt="Mochi Ice Cream">
+            <h3>Mochi Ice Cream</h3>
+            <p>Sweet rice cake with a cold, creamy ice cream centre.</p>
+            <div class="price">£3.00</div>
+        </div>
+        <div class="card">
+            <img src="images/Dorayaki.png" alt="Dorayaki">
+            <h3>Dorayaki</h3>
+            <p>Fluffy pancakes filled with sweet red bean paste – a classic treat.</p>
+            <div class="price">£2.50</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Warwick Ramen Cart. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
